@@ -111,7 +111,7 @@ class App extends Component{
                     onClick={()=>this.updateForService()}
                 >
                     <Link to='/services' style={{textDecoration:'none'}}>
-                    <h2  className="htext" id="goto" style={{border:'solid grey 1px', margin:'auto', width:"14%", padding:"1%",paddingRight:'5px', marginBottom:"2%", marginTop:"20px"}}>
+                    <h2  className="htext" id="goto" style={{border:'solid grey 1px', margin:'auto', width:"14%", padding:"1%",paddingRight:'5px', marginBottom:"2%", marginTop:"20px", textAlign:'center'}}>
                     services
                     </h2>
                     </Link>
@@ -130,9 +130,9 @@ class App extends Component{
                <FontAwesome name="phone"/> :  +27(72) 924-3869
               </div>
               <div className="contact-item">
-                <FontAwesome name="envelope"/> : Mdidishe@convitic.co.za
+                <FontAwesome name="envelope"/> : info@convitic.co.za
               </div>
-              <div className="contact-item" style={{display:'flex'}}>
+              {/*<div className="contact-item" style={{display:'flex'}}>
                 <FontAwesome name="map-marker" style={{verticalAlign:'-5px', paddingRight:'2px'}}/> :
                 <div style={{marginLeft:'4px'}}>
                   <div>
@@ -148,7 +148,7 @@ class App extends Component{
                     1724
                   </div>
                 </div>
-              </div>
+              </div>*/}
           </div>
         </div>
         <div className="footer">
