@@ -111,7 +111,7 @@ class App extends Component{
                     onClick={()=>this.updateForService()}
                 >
                     <Link to='/services' style={{textDecoration:'none'}}>
-                    <h2  className="htext" id="goto" style={{border:'solid grey 1px', margin:'auto', width:"13%", padding:"1%",paddingRight:'5px', marginBottom:"2%", marginTop:"20px"}}>
+                    <h2  className="htext" id="goto" style={{border:'solid grey 1px', margin:'auto', width:"14%", padding:"1%",paddingRight:'5px', marginBottom:"2%", marginTop:"20px"}}>
                     services
                     </h2>
                     </Link>
