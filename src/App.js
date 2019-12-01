@@ -70,18 +70,18 @@ class App extends Component{
           </div>
           
           <ul key={href}>
-            <li className={(href=="#/about")? "nav-item-active": "nav-item"}
+            <li className={(href==="#/about")? "nav-item-active": "nav-item"}
             onClick={()=>this.update()}
             >
               <Link to="/about" style={{color:'white', textDecoration:'none'}}
               >HOME</Link>
             </li>
-            <li className={(href=="#/services")? "nav-item-active": "nav-item"}
+            <li className={(href==="#/services")? "nav-item-active": "nav-item"}
             onClick={()=>this.updateForServicediff()}
             >
               <Link to="/services" style={{color:'white', textDecoration:'none'}}>SERVICES</Link>
             </li>
-            <li className={(href=="#/contact")? "nav-item-active": "nav-item"}
+            <li className={(href==="#/contact")? "nav-item-active": "nav-item"}
             onClick={()=>this.updateForServicediff()}
             >
               <Link to = 'contact' style={{color:'white', textDecoration:'none'}}>
