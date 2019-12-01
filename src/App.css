@@ -117,7 +117,9 @@ html , body{
 }
 
 @media screen and (max-width: 600px){
-  
+  .background-image{
+    height: 35vh;
+  }
   .navigation{
     padding-top: 4%;
   }
