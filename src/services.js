@@ -8,7 +8,7 @@ class Services extends Component{
                 <h1 className='services_header'>
                 <FontAwesome name='angle-right'/> <span style={{color:'green'}}> <span style={{color:'black'}}>CONTIVIC</span> Services</span>
                 </h1>
-                <h3 style={{color:'grey'}}>With the rising cost of living it is imperative that farmers rethink how they utilize their resources to maximize profit.
+                <h3 style={{color:'black'}}>With the rising cost of living it is imperative that farmers rethink how they utilize their resources to maximize profit.
                 </h3>
                 <h3 style={{color:'grey'}}>
                 CONTIVIC offers innovative automation solutions for the Agriculture Industry and they are as follows:  

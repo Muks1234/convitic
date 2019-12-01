@@ -112,7 +112,7 @@ class App extends Component{
                 >
                     <Link to='/services' style={{textDecoration:'none'}}>
                     <h2  className="htext" id="goto" style={{border:'solid grey 1px', margin:'auto', width:"13%", padding:"1%", marginBottom:"2%", marginTop:"20px"}}>
-                    Go to services
+                    services
                     </h2>
                     </Link>
                 </span>}

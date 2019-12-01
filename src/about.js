@@ -23,7 +23,7 @@ class About extends Component{
                     <hr style={{width: '40%', marginLeft:'5%'}}/>
                     <div className="about_content" style={{Width:"90%"}}>
                         <div style={{Width:"80%", paddingRight:'2%'}}>
-                            <h2 style={{color:'grey'}} className="intro-header">
+                            <h2 style={{color:'black'}} className="intro-header">
                             <span style={{color:'green', fontWeight:"bold"}}>CONTIVIC</span> is a privately-owned company which offers Automation and Electrical services and products for Homes, Farms and Manufacturing Industries. 
                             </h2>
                             <p className="text-paragraphs">
