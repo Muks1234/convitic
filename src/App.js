@@ -29,6 +29,7 @@ class App extends Component{
 
   updateForServicediff =() => {
     this.forceUpdate()
+    window.scrollTo(0, 500);
     this.setState({
       buttonOn:false
     })
@@ -44,7 +45,7 @@ class App extends Component{
 
     
     const href= window.location.hash
-    console.log(window.location.hash)
+    //console.log(window.location.hash)
     return (
       <HashRouter>
       <div>
@@ -58,9 +59,10 @@ class App extends Component{
           <span className="quote-button" 
           style={{color:'#001F6E', border: 'solid #001F6E 2px', fontSize:'20px'}}
           id="quote-button-one"
+          onClick={this.updateForServicediff}
           >
             <Link to='/contact' style={{color:  '#001f6e', textDecoration:'none'}}>
-              Get a quote
+              Talk to Us
             </Link>
           </span>
           </span>
@@ -91,9 +93,9 @@ class App extends Component{
           </ul>
         </div>
         <div className="background-image">
-          <span className="quote-button" id="quote-button-two">
+          <span className="quote-button" id="quote-button-two" onClick={this.updateForServicediff}>
             <Link to='/contact' style={{color:  'white', textDecoration:'none'}}>
-              Get a quote
+              Talk to Us
             </Link>
             </span>
         </div>
@@ -109,7 +111,7 @@ class App extends Component{
                     onClick={()=>this.updateForService()}
                 >
                     <Link to='/services' style={{textDecoration:'none'}}>
-                    <h2  className="htext" id="goto" style={{border:'solid grey 1px', margin:'auto', width:"13%", padding:"1%", marginBottom:"2%"}}>
+                    <h2  className="htext" id="goto" style={{border:'solid grey 1px', margin:'auto', width:"13%", padding:"1%", marginBottom:"2%", marginTop:"20px"}}>
                     Go to services
                     </h2>
                     </Link>
