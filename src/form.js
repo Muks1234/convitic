@@ -64,7 +64,7 @@ export default class Form extends React.Component {
       alignItems:"center",
       marginBottom:'5%'
       }}>
-    	<h2 className="contact-heading" style={{color:'green'}}>Send us an enquiry and one of our friendly staff</h2>
+    	<h2 className="contact-heading" style={{color:'green', textAlign:'center'}}>Send us an enquiry and one of our friendly staff</h2>
         <h2 className="contact-heading" style={{marginTop:'0px'}}>  will get back to you with a quote:</h2>
         <div style={{width:'40%'}}>
             <input type='text'
