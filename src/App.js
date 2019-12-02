@@ -57,7 +57,7 @@ class App extends Component{
           <span className="header">
           Automation Solutions for Irrigation and Pump Systems {' '}
           <span className="quote-button" 
-          style={{color:'#001F6E', border: 'solid #001F6E 2px', fontSize:'20px'}}
+          style={{color:'#001F6E', border: 'solid #001F6E 1px'}}
           id="quote-button-one"
           onClick={this.updateForServicediff}
           >
