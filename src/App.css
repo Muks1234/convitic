@@ -1,7 +1,5 @@
 
-*{
-  -webkit-overflow-scrolling: touch;
-}
+
 
 html , body{
   width: 100%;
@@ -42,6 +40,8 @@ html , body{
   padding-top: 2%;
   padding-bottom: 2%;
 }
+
+
 
 .logo{
   width: 30%;
@@ -117,6 +117,9 @@ html , body{
 }
 
 @media screen and (max-width: 600px){
+  *{
+    -webkit-overflow-scrolling: touch;
+  }
   .nav-item-active{
     padding-bottom: 0px;
   }
@@ -221,7 +224,7 @@ html , body{
 
 .services_container{
   padding-right: 5%;
-  padding-left: 10%;
+  padding-left: 5%;
 
 }
 
